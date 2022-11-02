@@ -1,0 +1,30 @@
+{
+  "name": "app_meteo",
+  "version": "1.0.0",
+  "description": "création d'une app météo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foreygon/App-meteo.git"
+  },
+  "author": "Damien L <damien.letiche@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foreygon/App-meteo/issues"
+  },
+  "homepage": "https://github.com/Foreygon/App-meteo#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "electron": "^21.0.1",
+    "electron-builder": "^23.3.3",
+    "nodemon": "^2.0.20"
+  }
+}
